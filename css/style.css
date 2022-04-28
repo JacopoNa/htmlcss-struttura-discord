@@ -113,3 +113,27 @@ section {
     background-color: green;
     border: 3px dashed;
 }
+
+/* FOOTER */
+
+.footer-top {
+    height: 400px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-left {
+    height: 370px;
+    width: 280px;
+    background-color: #ff8080;
+    border: 3px dashed;
+}
+
+.col-right {
+    height: 370px;
+    width: 140px;
+    background-color: #00b3b3;
+    border: 2px dashed white;
+}
