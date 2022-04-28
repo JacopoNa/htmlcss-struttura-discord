@@ -34,7 +34,7 @@ a {
 }
 
 .logo, nav, .login {
-    border: 3px dotted black;
+    border: 3px dashed;
     padding: 5px;
     /* TEST */
     background-color: #e6ac00;
@@ -52,4 +52,45 @@ nav {
     width: 15%;
     display: flex;
     justify-content: flex-end;
+}
+
+/* HEADER BOTTOM */
+
+.header-bottom {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TEST */
+    background-color:  #002db3;
+}
+
+.bottom-box {
+    width: 700px;
+    height: 300px;
+    background-color: #ff80df;
+    border: 3px dashed;
+}
+
+/* MAIN */
+
+section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-box1 {
+    width: 550px;
+    height: 350px;
+    background-color: #4da6ff;
+    border: 3px dashed;
+}
+
+.section-box2 {
+    width: 300px;
+    height: 350px;
+    background-color: #ffb3b3;
+    border: 3px dashed;
 }
