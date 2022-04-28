@@ -98,3 +98,18 @@ section {
 .middle {
     background-color: #cccccc;
 }
+
+.last-section {
+    height: 800px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-box {
+    height: 700px;
+    width: 850px;
+    background-color: green;
+    border: 3px dashed;
+}
